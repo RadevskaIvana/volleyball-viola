@@ -1,0 +1,486 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: #fde9b3!important; */
+}
+ .title{
+    width: 100%;
+    height: 800px;
+    background: url(../images/img10.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+ }
+ .title1{
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/img14.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+ }
+.navbar-brand img {
+    transition: .5s;
+}
+.navbar-brand:hover img {
+    transform: scale(1.2);
+}
+
+ .navbar-nav li{
+    text-transform: uppercase;
+    font-size: 15px;
+   margin-left: 10px;
+   color: #143e61;
+ }
+
+ .headline {
+    position: relative;
+ }
+
+ .headline::before {
+    position: absolute;
+    content: "";
+    width: 120px;
+    height: 2px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #054a85;
+ }
+
+ .headline::after {
+    position: absolute;
+    content: "";
+    width: 180px;
+    height: 4px;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: yellow;
+ }
+ 
+.gallery h3{
+    font-size: 16px;
+    text-align: center;
+    color: #054a85;  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    
+}
+
+.contact .email i:hover {
+    background: #998f06 !important;
+    transform: scale(1.1);
+}
+.contact .info i:hover {
+    background: #998f06 !important;
+    transform: scale(1.1);
+}
+.contact .phone i:hover {
+    background: #998f06 !important;
+    transform: scale(1.1);
+}
+
+.contact .email i{
+    font-size: 20px;
+    background: #0880e8;
+    color: #fff;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact .phone i{
+    font-size: 20px;
+    background: #0880e8;
+    color: #fff;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;  
+}
+.contact .info i {
+    font-size: 20px;
+    background: #0880e8;
+    color: #fff;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.team h2{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #054a85;
+    padding-bottom: 30px;
+    text-align: center; 
+}
+.contactus h2{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #054a85;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.container1 h2{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #054a85; 
+    text-align: center;
+}
+.container2 h3{
+    color: #054a85; 
+}
+ .text-paragraf1{
+    color: #054a85;
+    font-size: 15px;
+    font-family: 'Cookie', cursive;
+    padding: 4px;
+ }
+
+.info-text{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color:#054a85 ;
+}
+.gradient-text {
+    /* Fallback: Set a background color. */
+    background-color: red;
+    
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #1c5287, #dcad2b);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+  }
+  
+.text-headline {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #054a85;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+.footer-top {
+     width: 100%;
+    /* padding: 60px 0; */
+    background-color: #054a85; 
+    text-align: left;
+    color: #aaa;
+    /* text-align: center; */
+}
+
+.footer-contact p {
+    word-wrap: break-word;
+}
+.footer-contact i {
+    padding-right: 10px;
+    font-size: 18px;
+    color: #efce14;
+}
+.footer-social i {
+    font-size: 20px;
+    vertical-align: middle;
+    color:#efce14;
+}
+.footer-social a {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 8px;
+    color: #777;
+    border: 0;
+    text-decoration: none;
+    transition: all .3s;
+}
+.footer-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #efce14;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.contact .email{
+    margin-top: 40px;
+}
+.contact .phone{
+    margin-top: 40px;
+}
+.contact .info h4{
+    padding: 0 0 0 60px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #054a85;
+    
+}
+.contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #444444;
+}
+.contact .email h4{
+    padding: 0 0 0 60px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px; 
+    color: #054a85;
+}
+.contact .email p{
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #444444;
+}
+.contact .phone h4{
+  padding: 0 0 0 60px;
+  font-size: 20px ;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #054a85; 
+}
+.contact .phone p{
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #444444; 
+}
+.contact{
+    background:url(../images/contact-bg.png); 
+    position: relative;
+    background-position: left center;
+    background-repeat: no-repeat;
+   opacity: 1,5;
+}
+.copyright{
+   
+    font-size: 1rem;
+    padding: 20px 0;
+    
+    
+}
+
+.carosel-image-max-height {
+    max-height: 435px;
+}
+
+.container-fluid{
+    background: url(../images/img15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 750px;
+    
+}
+.motivaciondiv{
+    width: 100%;
+    padding: 5rem 0;
+    background-repeat: no-repeat;
+    background-image: url(../img/img12.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    
+}
+
+.textheading{
+    /* background-color: #fae150; */
+    color: #054a85;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+.gallery p{
+    color: #1c5287;
+    font-size: 20px;
+    padding-inline: 3px;
+    font-family: 'Cookie', cursive;
+}
+ .paragrafgalerry{
+    color:#dcad2b!important;
+    font-size: 15px!important;
+ }
+.img-zoom {
+    transition: transform .5s;
+}
+.img-zoom:hover {
+    /* -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5);  */
+    transform: scale(1.1); 
+}
+.trainer{
+    color: #efce14 !important;
+    text-align: center !important;
+    margin-left: 13px !important;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.team-container-bg {
+    background-color: #05253f !important;
+}
+ 
+.player{
+    color: #efce14 !important;
+    text-align: center !important;
+    margin-left: 13px !important;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg-icon{
+
+    /* background:url(../images/bg-icon.jpg);
+    background-size: contain;
+    background-position: center left;
+     */
+     
+     /* background: linear-gradient(to right, rgba(255,255,255,0) 30%,
+     rgba(255,255,255,1)); */
+     /* background-size: cover; */
+     background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(255, 217, 0));
+     /* background-image: linear-gradient(to right, #1c5287 , ) 30% #dcad2b; */
+
+
+}
+.trener-info{
+    background-color: #f5cc5a!important;
+}
+.paragraftrener{
+    color: #054a85;
+    font-size: 15px;
+    font-family: 'Cookie', cursive;
+}
+.heading-team{
+ 
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#1c5287!important;
+}
+h1{
+    font-family: 'Dancing Script', cursive; 
+    color: #dcad2b;
+    font-size: 30px;
+}
+.text-paragraf{
+    color: #054a85;
+    font-size: 20px;
+    font-family: 'Cookie', cursive;
+    padding: 15px;
+    
+}
+ .text-paragraf3{
+    padding: 62px;
+    color: #054a85;
+    font-size: 20px;
+    font-family: 'Cookie', cursive;
+ }
+.text-paragraf2{
+    font-family: 'Dancing Script', cursive; 
+    color: #dcad2b;
+    font-size: 25px;
+}
+.carousel-item{
+    min-height: 280px;
+}
+.img-icon{
+    color: #05253f;
+}
+ /* div ul li {
+    position: relative;
+    padding: 30px;
+  }
+  
+  div ul a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .25em;
+    display: inline-block;
+    padding: 15px;
+    position: relative;
+  }
+  
+  div ul a:hover::after {
+    width: 100%;
+    right: 0;
+  }
+  
+  div ul a::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 4px;
+    right: 0;
+    position: absolute;
+    background: linear-gradient(to right,  #0871c7 , rgb(243, 215, 5) 100%);
+    transition: width .5s ease 0s, right .5s ease 0s;
+    width: 0;
+  } */
+  div ul a {
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
+    color: #f9dd94 ;
+  }
+  
+  div ul a::before,
+  div ul a::after {
+    content: "";
+    height: 4px;
+    background: #f5ed04;
+    display: block;
+    transition: width 0.3s ease-in-out;
+    margin: 0 auto;
+  }
+  
+ div ul a::before { width: 100%; }
+  div ul a::after { width: 0; }
+  
+  div ul a:hover::before { width: 0; }
+  div ul a:hover::after { width: 100%; }
